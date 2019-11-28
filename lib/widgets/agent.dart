@@ -1,4 +1,4 @@
-import 'package:agent_app/models/coordinate.dart';
+import 'package:cw2/models/coordinate.dart';
 import 'package:flutter/material.dart';
 
 class Agent extends StatelessWidget {
@@ -15,7 +15,7 @@ class Agent extends StatelessWidget {
       curve: Curves.easeInOut,
       top: (coordinate.y - 1) * boxSize + (margin * coordinate.y),
       left: (coordinate.x - 1) * boxSize + (margin * coordinate.x),
-      duration: Duration(milliseconds: 0),
+      duration: Duration(milliseconds: 150),
       child: Container(
         width: boxSize,
         height: boxSize,

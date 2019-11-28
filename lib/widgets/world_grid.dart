@@ -1,5 +1,4 @@
-import 'package:agent_app/models/blockworld.dart';
-import 'package:agent_app/models/coordinate.dart';
+import 'package:cw2/models/blockworld.dart';
 import 'package:flutter/material.dart';
 
 import 'agent.dart';

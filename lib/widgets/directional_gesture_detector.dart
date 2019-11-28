@@ -1,4 +1,4 @@
-import 'package:agent_app/enums/direction.dart';
+import 'package:cw2/enums/direction.dart';
 import 'package:flutter/material.dart';
 
 class DirectionalGestureDetector extends StatefulWidget {
@@ -54,7 +54,6 @@ class _DirectionalGestureDetectorState extends State<DirectionalGestureDetector>
     return GestureDetector(
       onPanStart: setStartAndEndPoints,
       onPanUpdate: updateEndPosition,
-
       onPanEnd: emitDirection,
       child: widget.child,
     );
